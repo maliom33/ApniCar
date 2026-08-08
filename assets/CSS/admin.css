@@ -1,0 +1,21 @@
+/* Admin panel minimal styles */
+body[data-theme="dark"]{
+    background:#121212;
+    color:#e6e6e6;
+}
+.container-small{background:transparent}
+.panel{border-radius:8px;overflow:hidden}
+.panel .panel-body{padding:12px}
+.img-preview{border:1px solid #ddd;border-radius:6px}
+
+/* Tables */
+.table tbody tr td{vertical-align:middle}
+
+/* Buttons */
+.btn-default{background:#f5f5f5;border:1px solid #ddd}
+body[data-theme="dark"] .btn-default{background:#1f1f1f;border-color:#333;color:#ddd}
+
+/* responsive tweaks */
+@media (max-width:768px){
+    .img-preview{height:140px}
+}

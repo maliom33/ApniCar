@@ -1,0 +1,22 @@
+# Environment files
+.env
+.env.*
+
+# Dependencies
+node_modules/
+vendor/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local database configuration
+config.php

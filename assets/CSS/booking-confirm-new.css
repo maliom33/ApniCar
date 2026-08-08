@@ -1,0 +1,121 @@
+/* Booking Confirmation Styles */
+body {
+    font-family: var(--font-primary);
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+.navbar-custom {
+    background-color: var(--bg-primary);
+    border-color: var(--border-color);
+    margin-bottom: 0;
+}
+
+.navbar-custom .navbar-brand {
+    color: var(--primary-green);
+    font-weight: 600;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: var(--text-primary);
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    color: var(--primary-green);
+}
+
+.booking-confirmation {
+    padding: 60px 0;
+    background-color: var(--bg-secondary);
+    min-height: calc(100vh - 70px);
+}
+
+.confirmation-box {
+    background-color: var(--bg-primary);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px var(--shadow-light);
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.confirmation-box h2 {
+    color: var(--primary-green);
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.confirmation-box .lead {
+    color: var(--text-secondary);
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.alert {
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.alert-success {
+    background-color: var(--light-green);
+    border-color: var(--primary-green);
+    color: var(--dark-green);
+}
+
+.panel {
+    border-radius: 4px;
+    border-color: var(--border-color);
+}
+
+.panel-heading {
+    background-color: var(--bg-secondary) !important;
+    border-color: var(--border-color);
+    color: var(--text-primary) !important;
+}
+
+.panel-title {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.panel-body {
+    color: var(--text-secondary);
+}
+
+.panel-body strong {
+    color: var(--text-primary);
+}
+
+.btn-custom {
+    background-color: var(--primary-green);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: var(--green-hover);
+    color: white;
+}
+
+/* Footer styles */
+.site-footer {
+    background-color: var(--bg-primary);
+    border-top: 1px solid var(--border-color);
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .booking-confirmation {
+        padding: 20px 0;
+    }
+    
+    .confirmation-box {
+        padding: 20px;
+    }
+}
